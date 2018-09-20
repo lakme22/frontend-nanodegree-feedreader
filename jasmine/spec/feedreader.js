@@ -45,8 +45,7 @@ $(function() {
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
-    });
-
+    
     it('name is defined', function() {
         allFeeds.forEach(function(feed) {
         feedName = feed.name;
@@ -147,3 +146,4 @@ $(function() {
               });
             });        
 
+});
